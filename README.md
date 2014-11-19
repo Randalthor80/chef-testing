@@ -1,4 +1,4 @@
 chef-testing
 ============
 
-testing chef recipies. with exrta bacon
+testing chef recipies. with extra bacon
