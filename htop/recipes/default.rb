@@ -18,6 +18,6 @@ end
 git "/tmp/" do
 
 	repository ""https://github.com/Randalthor80/chef-testing.git"
-	reference "master"
-	action :sync
+	revision master
+	action :checkout
 end
