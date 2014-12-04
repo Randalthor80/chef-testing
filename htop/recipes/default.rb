@@ -14,3 +14,10 @@ end
 file '/home/ubuntu/htop' do
 	content 'htop installed'
 end
+
+git "/tmp/" do
+
+	repository ""https://github.com/Randalthor80/chef-testing.git"
+	reference "master"
+	action :sync
+end
