@@ -9,7 +9,7 @@
 
 git "/tmp/" do
 
-        repository "git@github.com:Randalthor80/chef-testing.git"
+        repository "https://github.com/Randalthor80/chef-testing.git"
         revision "master"
         action :checkout
 end
